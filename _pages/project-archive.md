@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 permalink: /projects/
-layout: categories
+layout: posts
 author_profile: true
 # toc_sticky: true
 # toc_ads : true
