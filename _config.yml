@@ -251,6 +251,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+project_archive:
+  type: liquid
+  path: /projects/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
