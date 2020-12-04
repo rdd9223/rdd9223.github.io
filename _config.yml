@@ -27,7 +27,7 @@ repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: "/assets/images/profile.jpg"
 logo: "/assets/images/profile.jpg" # 최상단 메뉴 바에 사이트 로고 넣기
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
   provider: "disqus" # 블로그 댓글 기능 false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -65,7 +65,7 @@ reCaptcha:
   secret:
 atom_feed:
   path: # blank (default) uses feed.xml
-search: true # true, false (default)
+search: false # true, false (default)
 search_full_content: # true, false (default)
 search_provider: # lunr (default), algolia, google
 algolia:
