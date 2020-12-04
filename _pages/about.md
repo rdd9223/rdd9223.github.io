@@ -2,6 +2,7 @@
 title: "블로그"
 permalink: /about/
 layout: single
+classes: wide
 ---
 
 ## 공부 기록 개인 블로그
