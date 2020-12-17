@@ -12,10 +12,10 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "en-US"
+locale: "ko-KR" #"en-US"
 title: "하나씩 천천히 알아가기"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
@@ -25,9 +25,9 @@ url: "https://rdd9223.github.io"
 baseurl: # 서브 경로가 있는 경우 기재
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: "/assets/images/profile.jpg"
-logo: # 최상단 메뉴 바에 사이트 로고 넣기
+logo: "/assets/images/profile.jpg" # 최상단 메뉴 바에 사이트 로고 넣기
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
   provider: "disqus" # 블로그 댓글 기능 false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -65,7 +65,7 @@ reCaptcha:
   secret:
 atom_feed:
   path: # blank (default) uses feed.xml
-search: # true, false (default)
+search: false # true, false (default)
 search_full_content: # true, false (default)
 search_provider: # lunr (default), algolia, google
 algolia:
@@ -285,6 +285,20 @@ defaults:
       read_time: true
       comments: true # 댓글기능 켜기
       share: true
+      related: true
+      toc_ads: true
+      toc_sticky: true
+
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      read_time: true # 예상 읽기시간 여부
+      comments: false # 댓글기능 켜기
+      share: false
       related: true
       toc_ads: true
       toc_sticky: true

@@ -1,9 +1,8 @@
 ---
 title: "블로그"
 permalink: /about/
-toc_sticky: true
-toc_ads : true
 layout: single
+classes: wide
 ---
 
 ## 공부 기록 개인 블로그
