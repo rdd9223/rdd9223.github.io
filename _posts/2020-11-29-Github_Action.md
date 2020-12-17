@@ -10,6 +10,7 @@ categories:
 tags:
   - Github Action
   - CI
+comments: true
 last_modified_at: 2020-11-29T21:00:00-05:00
 ---
 
